@@ -1,0 +1,40 @@
+auth
+.env
+__pycache__/
+*.py[cod]
+todo
+*.DS_Store
+._*
+dump.rdb
+.idea
+
+# Ignore Python cache files
+__pycache__/
+*__pycache__/
+*.py[cod]
+*.egg
+.env
+*.egg-info/
+dist/
+build/
+
+# Ignore environment files
+*.env
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore IDE files
+.idea/
+
+# Ignore Docker files
+docker-compose.override.yml
+docker-compose.prod.yml
+Dockerfile.prod
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+netflix
